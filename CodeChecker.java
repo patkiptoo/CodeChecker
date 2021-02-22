@@ -15,6 +15,7 @@ public class CodeChecker {
         this.stringNotAllowed=s;
     }
     
+
     public boolean isValid(String codeWord)
     {
         if (codeWord.length() >= minLength && codeWord.length() <= maxLength)
